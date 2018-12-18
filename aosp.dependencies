@@ -4,8 +4,8 @@
     "target_path": "device/xiaomi/sdm845-common"
   },
   {
-    "repository": "packages_apps_ARStickersMod",
-    "target_path": "packages/apps/ARStickersMod",
+    "repository": "packages_apps_Playground",
+    "target_path": "packages/apps/Playground",
     "branch": "pie",
     "remote": "pixel-gitlab"
   },
