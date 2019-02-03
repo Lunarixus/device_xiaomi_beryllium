@@ -28,6 +28,10 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
+# Use MIUI Kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/Image.lz4-dtb:kernel
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
